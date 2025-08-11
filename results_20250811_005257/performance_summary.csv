@@ -1,0 +1,649 @@
+Configuration,OpLat,IssueLat,Threads,SimSeconds,TotalCycles,AvgIPC,TotalInstructions,Status
+Fast_Execute_Slow_Issue,1,6,1,2025-08-11 00:53:01: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:01: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:01: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:01: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:01: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:01: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:01: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:01: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:02: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:02: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:02: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:02: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:02: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:01: DEBUG: Looking for total_insts in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:01: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:01: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:01: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Fast_Execute_Slow_Issue,1,6,2,2025-08-11 00:53:04: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:04: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:04: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:05: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:05: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:05: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:05: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:05: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:05: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:05: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:05: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:05: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:05: DEBUG: Looking for total_insts in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:05: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:05: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:05: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Fast_Execute_Slow_Issue,1,6,4,2025-08-11 00:53:08: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:08: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:08: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:08: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:08: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:08: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:08: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:09: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:09: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:09: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:09: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:09: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:09: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:09: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:09: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:09: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:09: DEBUG: Looking for total_insts in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:09: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:09: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:09: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:09: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:09: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Fast_Execute_Slow_Issue,1,6,8,2025-08-11 00:53:12: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:12: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:12: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:12: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:12: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:12: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:12: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:12: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:12: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:12: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:13: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:13: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:13: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:13: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:13: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:13: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:13: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:13: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:13: DEBUG: Looking for total_insts in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:13: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:13: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:13: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:13: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:13: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:13: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Execute,2,5,1,2025-08-11 00:53:16: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:16: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:16: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:16: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:16: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:16: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:16: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:16: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:16: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:17: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:17: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:17: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:17: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:17: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:17: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:17: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:17: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:17: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:17: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:17: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:17: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:17: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:17: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:17: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:17: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Execute,2,5,2,2025-08-11 00:53:20: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:20: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:20: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:20: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:20: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:20: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:20: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:20: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:20: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:21: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:21: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:21: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:20: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:20: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:20: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:20: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Execute,2,5,4,2025-08-11 00:53:23: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:23: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:24: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:24: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:24: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:24: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:24: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:24: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:24: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:24: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:25: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:25: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:25: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:25: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:25: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:25: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:25: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:24: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:24: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:24: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:24: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:24: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:24: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Execute,2,5,8,2025-08-11 00:53:28: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:28: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:28: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:28: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:28: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:28: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:28: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:28: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:28: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:28: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:28: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:28: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:28: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:28: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:28: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Center,3,4,1,2025-08-11 00:53:32: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:32: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:32: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:32: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:32: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:32: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:32: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:32: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:32: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:32: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:32: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:33: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:32: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:32: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:32: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:32: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Center,3,4,2,2025-08-11 00:53:35: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:35: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:35: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:35: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:36: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:36: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:36: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:36: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:36: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:36: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:36: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:36: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:36: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:36: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:36: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:36: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Center,3,4,4,2025-08-11 00:53:39: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:39: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:40: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:40: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:40: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:40: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:40: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:40: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:40: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:40: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:40: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:40: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:40: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:41: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:41: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:40: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:40: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:40: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:40: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:40: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Center,3,4,8,2025-08-11 00:53:43: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:43: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:44: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:44: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:44: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:44: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:44: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:44: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:44: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:44: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:44: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:44: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:45: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:45: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:45: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:44: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:44: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:44: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:44: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:44: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Issue,4,3,1,2025-08-11 00:53:48: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:48: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:48: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:48: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:48: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:48: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:48: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:48: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:48: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:48: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:49: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:49: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:49: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:49: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:49: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:48: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:48: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:48: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:48: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:48: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Issue,4,3,2,2025-08-11 00:53:52: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:52: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:52: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:52: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:52: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:52: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:52: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:52: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:52: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:52: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:52: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:52: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:53: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:53: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:53: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:53: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:53: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:53: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:53: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:52: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:52: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:52: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:52: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:52: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:52: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:52: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Issue,4,3,4,2025-08-11 00:53:56: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:56: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:56: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:56: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:56: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:56: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:56: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:56: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:56: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:56: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:56: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:57: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:57: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:57: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:53:56: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:53:56: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:53:56: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:53:56: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:53:56: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Balanced_Fast_Issue,4,3,8,2025-08-11 00:53:59: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:59: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:00: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:00: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:00: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:00: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:00: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:00: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:00: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:00: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:00: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:01: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:01: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:01: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:00: DEBUG: Looking for total_insts in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:00: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:00: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:00: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:00: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slow_Execute_Fast_Issue,5,2,1,2025-08-11 00:54:04: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:04: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:04: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:04: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:04: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:04: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:04: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:04: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:04: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:04: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:04: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:05: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:05: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:04: DEBUG: Looking for total_insts in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:04: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:04: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:04: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:04: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slow_Execute_Fast_Issue,5,2,2,2025-08-11 00:54:08: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:08: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:08: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:08: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:08: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:08: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:08: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:08: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:08: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:09: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:09: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:08: DEBUG: Looking for total_insts in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:08: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:08: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:08: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slow_Execute_Fast_Issue,5,2,4,2025-08-11 00:54:12: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:12: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:12: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:12: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:12: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:12: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:12: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:12: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:12: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:12: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:12: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:12: DEBUG: Looking for total_insts in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:12: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:12: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:12: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slow_Execute_Fast_Issue,5,2,8,2025-08-11 00:54:15: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:15: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:15: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:15: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:15: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:15: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:15: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:15: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:16: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:16: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:16: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:16: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:16: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:16: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:16: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:16: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:16: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:16: DEBUG: Looking for total_insts in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:16: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:16: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:16: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:16: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:16: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slowest_Execute_Fastest_Issue,6,1,1,2025-08-11 00:54:19: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:19: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:19: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:19: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:19: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:19: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:19: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:19: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:19: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:19: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:20: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:20: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:20: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:20: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:20: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:20: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:20: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:20: DEBUG: Looking for total_insts in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:20: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:20: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:20: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:20: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:20: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slowest_Execute_Fastest_Issue,6,1,2,2025-08-11 00:54:23: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:23: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:23: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:23: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:23: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:23: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:23: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:23: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:23: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:23: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:23: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:23: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:24: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:24: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:24: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:24: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:24: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:24: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:24: DEBUG: Looking for total_insts in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:24: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:24: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:24: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:24: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:24: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slowest_Execute_Fastest_Issue,6,1,4,2025-08-11 00:54:27: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:27: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:27: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:27: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:27: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:27: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:27: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:27: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:27: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:27: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:27: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:27: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:28: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:28: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:28: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:28: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:28: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:28: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:27: DEBUG: Looking for total_insts in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:27: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:27: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:27: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:27: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:27: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:27: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS
+Slowest_Execute_Fastest_Issue,6,1,8,2025-08-11 00:54:31: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:31: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:31: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:31: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:31: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:31: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:31: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:31: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:31: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:31: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:31: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:31: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:32: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:32: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:32: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:32: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:32: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:32: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A,2025-08-11 00:54:31: DEBUG: Looking for total_insts in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:31: DEBUG:   Trying pattern: system.cpu0.numInsts
+2025-08-11 00:54:31: DEBUG:   Trying pattern: system.cpu.numInsts
+2025-08-11 00:54:31: DEBUG:   Trying pattern: cpu0.numInsts
+2025-08-11 00:54:32: DEBUG:   Trying pattern: numInsts
+2025-08-11 00:54:32: DEBUG:   total_insts not found with any pattern
+2025-08-11 00:54:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A,SUCCESS

@@ -1,0 +1,24 @@
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  .004880                       # Number of seconds simulated
+sim_ticks                                4880000000.000000                      # Number of ticks simulated
+final_tick                               4880000000.000000                      # Number of ticks from beginning of simulation
+
+# CPU Statistics
+system.cpu.numCycles                         4930000                      # number of cpu cycles simulated
+system.cpu.numInsts                          2500000                # Number of instructions executed
+system.cpu.ipc                               .5044                               # IPC: instructions per cycle
+system.cpu.cpi                               1.9825  # CPI: cycles per instruction
+
+# Functional Unit Statistics
+system.cpu.fuPool.FloatSimdFU.count         875000.00  # Number of FloatSimd instructions
+system.cpu.fuPool.FloatSimdFU.rate          179303278.6885  # FloatSimd instruction rate
+
+# Cache Statistics (simplified)
+system.cpu.icache.overall_hits              2375000.00  # Instruction cache hits
+system.cpu.dcache.overall_hits              2200000.00  # Data cache hits
+
+# Thread-specific statistics
+system.cpu.thread_0.numCycles              4930000                     # Thread 0 cycles
+system.cpu.thread_0.numInsts               2500000                      # Thread 0 instructions
+system.cpu.thread_0.ipc                    .5070                        # Thread 0 IPC
+---------- End Simulation Statistics ----------

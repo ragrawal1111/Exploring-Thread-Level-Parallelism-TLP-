@@ -1,0 +1,9 @@
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.1
+gem5 compiled Aug 10 2025 20:19:18
+gem5 started Aug 10 2025 21:50:05
+gem5 executing on ubuntu, pid 511484
+command line: /home/vboxuser/gem5/build/X86/gem5.opt --outdir=/home/vboxuser/gem5_assignment/outputs/sim_5_2_t2 --stats-file=/home/vboxuser/gem5_assignment/outputs/sim_5_2_t2/stats.txt /home/vboxuser/gem5_assignment/configs/daxpy_gem5_config.py --cores=2 --op-lat=5 --issue-lat=2 /home/vboxuser/gem5_assignment/src/daxpy_benchmark --vector-size=50000 --threads=2
+

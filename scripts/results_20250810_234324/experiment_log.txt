@@ -1,0 +1,3 @@
+2025-08-10 23:43:24: Starting FloatSimdFU analysis experiments
+2025-08-10 23:43:24: Results directory: results_20250810_234324
+2025-08-10 23:43:25: ERROR: Binary src/multi_threaded_daxpy not found. Please compile it first.

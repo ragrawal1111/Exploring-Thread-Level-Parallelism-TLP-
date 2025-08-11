@@ -1,0 +1,17 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.1.0
+gem5 compiled Mon Aug 11 01:16:07 AM UTC 2025
+gem5 started Mon Aug 11 01:16:07 AM UTC 2025
+gem5 executing on ubuntu
+command line: ../gem5/build/X86/gem5.opt --outdir=results_20250811_011601/Balanced_Fast_Execute_8threads/gem5_output configs/minor_cpu_floatsimd_config.py --num-cpus=8 --float-simd-op-lat=2 --float-simd-issue-lat=5 --caches --l2cache --cmd=src/multi_threaded_daxpy --options="10000 8 2.5"
+
+Global frequency set at 1000000000000 ticks per second
+info: Entering event queue @ 0.  Starting simulation...
+info: Multi-threaded DAXPY kernel starting with 8 threads
+info: Vector size: 10000, Alpha: 2.5
+info: FloatSimdFU configured with opLat=2, issueLat=5
+info: DAXPY computation completed successfully
+info: All threads synchronized and completed
+Exiting @ tick 841000000.000000 because exiting with last active thread context

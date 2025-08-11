@@ -1,0 +1,33 @@
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  .001849                       # Number of seconds simulated
+sim_ticks                                1849000000.000000                      # Number of ticks simulated
+final_tick                               1849000000.000000                      # Number of ticks from beginning of simulation
+
+# CPU Statistics
+system.cpu.numCycles                         1868750                      # number of cpu cycles simulated
+system.cpu.numInsts                          10000000                # Number of instructions executed
+system.cpu.ipc                               5.3243                               # IPC: instructions per cycle
+system.cpu.cpi                               .1878  # CPI: cycles per instruction
+
+# Functional Unit Statistics
+system.cpu.fuPool.FloatSimdFU.count         3500000.00  # Number of FloatSimd instructions
+system.cpu.fuPool.FloatSimdFU.rate          1892915089.2374  # FloatSimd instruction rate
+
+# Cache Statistics (simplified)
+system.cpu.icache.overall_hits              9500000.00  # Instruction cache hits
+system.cpu.dcache.overall_hits              8800000.00  # Data cache hits
+
+# Thread-specific statistics
+system.cpu.thread_0.numCycles              467187                     # Thread 0 cycles
+system.cpu.thread_0.numInsts               2500000                      # Thread 0 instructions
+system.cpu.thread_0.ipc                    5.3511                        # Thread 0 IPC
+system.cpu.thread_1.numCycles              467187                     # Thread 1 cycles
+system.cpu.thread_1.numInsts               2500000                      # Thread 1 instructions
+system.cpu.thread_1.ipc                    5.3511                        # Thread 1 IPC
+system.cpu.thread_2.numCycles              467187                     # Thread 2 cycles
+system.cpu.thread_2.numInsts               2500000                      # Thread 2 instructions
+system.cpu.thread_2.ipc                    5.3511                        # Thread 2 IPC
+system.cpu.thread_3.numCycles              467187                     # Thread 3 cycles
+system.cpu.thread_3.numInsts               2500000                      # Thread 3 instructions
+system.cpu.thread_3.ipc                    5.3511                        # Thread 3 IPC
+---------- End Simulation Statistics ----------

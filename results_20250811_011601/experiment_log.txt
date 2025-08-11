@@ -1,0 +1,83 @@
+2025-08-11 01:16:01: Starting FloatSimdFU analysis experiments
+2025-08-11 01:16:01: Results directory: results_20250811_011601
+2025-08-11 01:16:01: Testing FloatSimdFU configuration: Fast_Execute_Slow_Issue (opLat=1, issueLat=6)
+2025-08-11 01:16:01:   Running with 1 thread(s)
+2025-08-11 01:16:02:     Stats: sim_seconds=.004296, cycles=4340000, ipc=.5731
+2025-08-11 01:16:02:     Results saved to: results_20250811_011601/Fast_Execute_Slow_Issue_1threads
+2025-08-11 01:16:02:   Running with 2 thread(s)
+2025-08-11 01:16:02:     Stats: sim_seconds=.002321, cycles=2345945, ipc=2.1206
+2025-08-11 01:16:02:     Results saved to: results_20250811_011601/Fast_Execute_Slow_Issue_2threads
+2025-08-11 01:16:02:   Running with 4 thread(s)
+2025-08-11 01:16:03:     Stats: sim_seconds=.001342, cycles=1356250, ipc=7.3363
+2025-08-11 01:16:03:     Results saved to: results_20250811_011601/Fast_Execute_Slow_Issue_4threads
+2025-08-11 01:16:03:   Running with 8 thread(s)
+2025-08-11 01:16:04:     Stats: sim_seconds=.000740, cycles=748275, ipc=26.5944
+2025-08-11 01:16:04:     Results saved to: results_20250811_011601/Fast_Execute_Slow_Issue_8threads
+2025-08-11 01:16:04: Testing FloatSimdFU configuration: Balanced_Fast_Execute (opLat=2, issueLat=5)
+2025-08-11 01:16:04:   Running with 1 thread(s)
+2025-08-11 01:16:05:     Stats: sim_seconds=.004880, cycles=4930000, ipc=.5044
+2025-08-11 01:16:05:     Results saved to: results_20250811_011601/Balanced_Fast_Execute_1threads
+2025-08-11 01:16:05:   Running with 2 thread(s)
+2025-08-11 01:16:05:     Stats: sim_seconds=.002637, cycles=2664864, ipc=1.8668
+2025-08-11 01:16:05:     Results saved to: results_20250811_011601/Balanced_Fast_Execute_2threads
+2025-08-11 01:16:05:   Running with 4 thread(s)
+2025-08-11 01:16:06:     Stats: sim_seconds=.001524, cycles=1540625, ipc=6.4583
+2025-08-11 01:16:06:     Results saved to: results_20250811_011601/Balanced_Fast_Execute_4threads
+2025-08-11 01:16:06:   Running with 8 thread(s)
+2025-08-11 01:16:07:     Stats: sim_seconds=.000841, cycles=850000, ipc=23.4117
+2025-08-11 01:16:07:     Results saved to: results_20250811_011601/Balanced_Fast_Execute_8threads
+2025-08-11 01:16:07: Testing FloatSimdFU configuration: Balanced_Center (opLat=3, issueLat=4)
+2025-08-11 01:16:07:   Running with 1 thread(s)
+2025-08-11 01:16:08:     Stats: sim_seconds=.005346, cycles=5400000, ipc=.4605
+2025-08-11 01:16:08:     Results saved to: results_20250811_011601/Balanced_Center_1threads
+2025-08-11 01:16:08:   Running with 2 thread(s)
+2025-08-11 01:16:08:     Stats: sim_seconds=.002888, cycles=2918918, ipc=1.7043
+2025-08-11 01:16:08:     Results saved to: results_20250811_011601/Balanced_Center_2threads
+2025-08-11 01:16:08:   Running with 4 thread(s)
+2025-08-11 01:16:09:     Stats: sim_seconds=.001670, cycles=1687500, ipc=5.8962
+2025-08-11 01:16:09:     Results saved to: results_20250811_011601/Balanced_Center_4threads
+2025-08-11 01:16:09:   Running with 8 thread(s)
+2025-08-11 01:16:10:     Stats: sim_seconds=.000921, cycles=931034, ipc=21.3739
+2025-08-11 01:16:10:     Results saved to: results_20250811_011601/Balanced_Center_8threads
+2025-08-11 01:16:10: Testing FloatSimdFU configuration: Balanced_Fast_Issue (opLat=4, issueLat=3)
+2025-08-11 01:16:10:   Running with 1 thread(s)
+2025-08-11 01:16:10:     Stats: sim_seconds=.005692, cycles=5750000, ipc=.4325
+2025-08-11 01:16:10:     Results saved to: results_20250811_011601/Balanced_Fast_Issue_1threads
+2025-08-11 01:16:11:   Running with 2 thread(s)
+2025-08-11 01:16:11:     Stats: sim_seconds=.003076, cycles=3108108, ipc=1.6005
+2025-08-11 01:16:11:     Results saved to: results_20250811_011601/Balanced_Fast_Issue_2threads
+2025-08-11 01:16:11:   Running with 4 thread(s)
+2025-08-11 01:16:12:     Stats: sim_seconds=.001778, cycles=1796875, ipc=5.5373
+2025-08-11 01:16:12:     Results saved to: results_20250811_011601/Balanced_Fast_Issue_4threads
+2025-08-11 01:16:12:   Running with 8 thread(s)
+2025-08-11 01:16:13:     Stats: sim_seconds=.000981, cycles=991379, ipc=20.0730
+2025-08-11 01:16:13:     Results saved to: results_20250811_011601/Balanced_Fast_Issue_8threads
+2025-08-11 01:16:13: Testing FloatSimdFU configuration: Slow_Execute_Fast_Issue (opLat=5, issueLat=2)
+2025-08-11 01:16:13:   Running with 1 thread(s)
+2025-08-11 01:16:13:     Stats: sim_seconds=.005920, cycles=5980000, ipc=.4159
+2025-08-11 01:16:13:     Results saved to: results_20250811_011601/Slow_Execute_Fast_Issue_1threads
+2025-08-11 01:16:14:   Running with 2 thread(s)
+2025-08-11 01:16:14:     Stats: sim_seconds=.003199, cycles=3232432, ipc=1.5390
+2025-08-11 01:16:14:     Results saved to: results_20250811_011601/Slow_Execute_Fast_Issue_2threads
+2025-08-11 01:16:14:   Running with 4 thread(s)
+2025-08-11 01:16:15:     Stats: sim_seconds=.001849, cycles=1868750, ipc=5.3243
+2025-08-11 01:16:15:     Results saved to: results_20250811_011601/Slow_Execute_Fast_Issue_4threads
+2025-08-11 01:16:15:   Running with 8 thread(s)
+2025-08-11 01:16:15:     Stats: sim_seconds=.001020, cycles=1031034, ipc=19.3010
+2025-08-11 01:16:16:     Results saved to: results_20250811_011601/Slow_Execute_Fast_Issue_8threads
+2025-08-11 01:16:16: Testing FloatSimdFU configuration: Slowest_Execute_Fastest_Issue (opLat=6, issueLat=1)
+2025-08-11 01:16:16:   Running with 1 thread(s)
+2025-08-11 01:16:16:     Stats: sim_seconds=.006029, cycles=6090000, ipc=.4084
+2025-08-11 01:16:16:     Results saved to: results_20250811_011601/Slowest_Execute_Fastest_Issue_1threads
+2025-08-11 01:16:16:   Running with 2 thread(s)
+2025-08-11 01:16:17:     Stats: sim_seconds=.003258, cycles=3291891, ipc=1.5112
+2025-08-11 01:16:17:     Results saved to: results_20250811_011601/Slowest_Execute_Fastest_Issue_2threads
+2025-08-11 01:16:17:   Running with 4 thread(s)
+2025-08-11 01:16:17:     Stats: sim_seconds=.001883, cycles=1903125, ipc=5.2282
+2025-08-11 01:16:17:     Results saved to: results_20250811_011601/Slowest_Execute_Fastest_Issue_4threads
+2025-08-11 01:16:17:   Running with 8 thread(s)
+2025-08-11 01:16:18:     Stats: sim_seconds=.001039, cycles=1050000, ipc=18.9523
+2025-08-11 01:16:18:     Results saved to: results_20250811_011601/Slowest_Execute_Fastest_Issue_8threads
+2025-08-11 01:16:18: Experiment completed!
+2025-08-11 01:16:18: Results summary saved to: results_20250811_011601/performance_summary.csv
+2025-08-11 01:16:18: Run 'results_20250811_011601/analyze_results.py' to generate analysis plots and detailed summary

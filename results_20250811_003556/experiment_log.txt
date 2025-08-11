@@ -1,0 +1,132 @@
+2025-08-11 00:35:56: Starting FloatSimdFU analysis experiments
+2025-08-11 00:35:56: Results directory: results_20250811_003556
+2025-08-11 00:35:56: Testing FloatSimdFU configuration: Fast_Execute_Slow_Issue (opLat=1, issueLat=6)
+2025-08-11 00:35:56:   Running with 1 thread(s)
+2025-08-11 00:35:56:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Fast_Execute_Slow_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:35:57:     Simulation completed successfully
+2025-08-11 00:35:57:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:35:57:     Results saved to: results_20250811_003556/Fast_Execute_Slow_Issue_1threads
+2025-08-11 00:35:57:   Running with 2 thread(s)
+2025-08-11 00:35:57:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Fast_Execute_Slow_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:35:58:     Simulation completed successfully
+2025-08-11 00:35:58:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:35:58:     Results saved to: results_20250811_003556/Fast_Execute_Slow_Issue_2threads
+2025-08-11 00:35:58:   Running with 4 thread(s)
+2025-08-11 00:35:58:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Fast_Execute_Slow_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:35:58:     Simulation completed successfully
+2025-08-11 00:35:59:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:35:59:     Results saved to: results_20250811_003556/Fast_Execute_Slow_Issue_4threads
+2025-08-11 00:35:59:   Running with 8 thread(s)
+2025-08-11 00:35:59:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Fast_Execute_Slow_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:35:59:     Simulation completed successfully
+2025-08-11 00:36:00:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:00:     Results saved to: results_20250811_003556/Fast_Execute_Slow_Issue_8threads
+2025-08-11 00:36:00: Testing FloatSimdFU configuration: Balanced_Fast_Execute (opLat=2, issueLat=5)
+2025-08-11 00:36:00:   Running with 1 thread(s)
+2025-08-11 00:36:00:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Execute_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:36:00:     Simulation completed successfully
+2025-08-11 00:36:01:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:01:     Results saved to: results_20250811_003556/Balanced_Fast_Execute_1threads
+2025-08-11 00:36:01:   Running with 2 thread(s)
+2025-08-11 00:36:01:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Execute_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:36:01:     Simulation completed successfully
+2025-08-11 00:36:01:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:01:     Results saved to: results_20250811_003556/Balanced_Fast_Execute_2threads
+2025-08-11 00:36:02:   Running with 4 thread(s)
+2025-08-11 00:36:02:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Execute_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:36:02:     Simulation completed successfully
+2025-08-11 00:36:02:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:02:     Results saved to: results_20250811_003556/Balanced_Fast_Execute_4threads
+2025-08-11 00:36:02:   Running with 8 thread(s)
+2025-08-11 00:36:03:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Execute_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:36:03:     Simulation completed successfully
+2025-08-11 00:36:03:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:03:     Results saved to: results_20250811_003556/Balanced_Fast_Execute_8threads
+2025-08-11 00:36:03: Testing FloatSimdFU configuration: Balanced_Center (opLat=3, issueLat=4)
+2025-08-11 00:36:03:   Running with 1 thread(s)
+2025-08-11 00:36:03:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Center_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:36:04:     Simulation completed successfully
+2025-08-11 00:36:04:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:04:     Results saved to: results_20250811_003556/Balanced_Center_1threads
+2025-08-11 00:36:04:   Running with 2 thread(s)
+2025-08-11 00:36:04:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Center_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:36:05:     Simulation completed successfully
+2025-08-11 00:36:05:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:05:     Results saved to: results_20250811_003556/Balanced_Center_2threads
+2025-08-11 00:36:05:   Running with 4 thread(s)
+2025-08-11 00:36:05:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Center_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:36:06:     Simulation completed successfully
+2025-08-11 00:36:06:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:06:     Results saved to: results_20250811_003556/Balanced_Center_4threads
+2025-08-11 00:36:06:   Running with 8 thread(s)
+2025-08-11 00:36:06:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Center_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:36:07:     Simulation completed successfully
+2025-08-11 00:36:07:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:07:     Results saved to: results_20250811_003556/Balanced_Center_8threads
+2025-08-11 00:36:07: Testing FloatSimdFU configuration: Balanced_Fast_Issue (opLat=4, issueLat=3)
+2025-08-11 00:36:07:   Running with 1 thread(s)
+2025-08-11 00:36:07:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:36:08:     Simulation completed successfully
+2025-08-11 00:36:08:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:08:     Results saved to: results_20250811_003556/Balanced_Fast_Issue_1threads
+2025-08-11 00:36:08:   Running with 2 thread(s)
+2025-08-11 00:36:08:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:36:09:     Simulation completed successfully
+2025-08-11 00:36:09:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:09:     Results saved to: results_20250811_003556/Balanced_Fast_Issue_2threads
+2025-08-11 00:36:09:   Running with 4 thread(s)
+2025-08-11 00:36:09:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:36:10:     Simulation completed successfully
+2025-08-11 00:36:10:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:10:     Results saved to: results_20250811_003556/Balanced_Fast_Issue_4threads
+2025-08-11 00:36:10:   Running with 8 thread(s)
+2025-08-11 00:36:10:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Balanced_Fast_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:36:11:     Simulation completed successfully
+2025-08-11 00:36:11:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:11:     Results saved to: results_20250811_003556/Balanced_Fast_Issue_8threads
+2025-08-11 00:36:11: Testing FloatSimdFU configuration: Slow_Execute_Fast_Issue (opLat=5, issueLat=2)
+2025-08-11 00:36:11:   Running with 1 thread(s)
+2025-08-11 00:36:11:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slow_Execute_Fast_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:36:12:     Simulation completed successfully
+2025-08-11 00:36:12:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:12:     Results saved to: results_20250811_003556/Slow_Execute_Fast_Issue_1threads
+2025-08-11 00:36:12:   Running with 2 thread(s)
+2025-08-11 00:36:12:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slow_Execute_Fast_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:36:12:     Simulation completed successfully
+2025-08-11 00:36:13:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:13:     Results saved to: results_20250811_003556/Slow_Execute_Fast_Issue_2threads
+2025-08-11 00:36:13:   Running with 4 thread(s)
+2025-08-11 00:36:13:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slow_Execute_Fast_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:36:13:     Simulation completed successfully
+2025-08-11 00:36:13:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:14:     Results saved to: results_20250811_003556/Slow_Execute_Fast_Issue_4threads
+2025-08-11 00:36:14:   Running with 8 thread(s)
+2025-08-11 00:36:14:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slow_Execute_Fast_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:36:14:     Simulation completed successfully
+2025-08-11 00:36:14:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:14:     Results saved to: results_20250811_003556/Slow_Execute_Fast_Issue_8threads
+2025-08-11 00:36:14: Testing FloatSimdFU configuration: Slowest_Execute_Fastest_Issue (opLat=6, issueLat=1)
+2025-08-11 00:36:15:   Running with 1 thread(s)
+2025-08-11 00:36:15:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slowest_Execute_Fastest_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:36:15:     Simulation completed successfully
+2025-08-11 00:36:16:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:16:     Results saved to: results_20250811_003556/Slowest_Execute_Fastest_Issue_1threads
+2025-08-11 00:36:16:   Running with 2 thread(s)
+2025-08-11 00:36:16:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slowest_Execute_Fastest_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:36:17:     Simulation completed successfully
+2025-08-11 00:36:17:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:17:     Results saved to: results_20250811_003556/Slowest_Execute_Fastest_Issue_2threads
+2025-08-11 00:36:17:   Running with 4 thread(s)
+2025-08-11 00:36:17:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slowest_Execute_Fastest_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:36:18:     Simulation completed successfully
+2025-08-11 00:36:18:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:18:     Results saved to: results_20250811_003556/Slowest_Execute_Fastest_Issue_4threads
+2025-08-11 00:36:18:   Running with 8 thread(s)
+2025-08-11 00:36:18:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_003556/Slowest_Execute_Fastest_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:36:19:     Simulation completed successfully
+2025-08-11 00:36:19:     Stats extracted: sim_seconds=N/A, cycles=N/A, ipc=N/A
+2025-08-11 00:36:19:     Results saved to: results_20250811_003556/Slowest_Execute_Fastest_Issue_8threads
+2025-08-11 00:36:19: Experiment completed!
+2025-08-11 00:36:19: Results summary saved to: results_20250811_003556/performance_summary.csv
+2025-08-11 00:36:19: Run 'results_20250811_003556/analyze_results.py' to generate analysis plots and detailed summary
+2025-08-11 00:36:19: Quick summary of experiments:

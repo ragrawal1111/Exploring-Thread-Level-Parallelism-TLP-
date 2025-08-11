@@ -1,0 +1,10 @@
+Configuration: Balanced_Fast_Execute
+Threads: 4
+Stats file: results_20250811_011601/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+=
+sim_seconds                                  .001524
+system.cpu.numCycles                         1540625
+system.cpu.ipc                               6.4583
+system.cpu.numInsts                          10000000
+system.cpu.fuPool.FloatSimdFU.count         3500000.00
+

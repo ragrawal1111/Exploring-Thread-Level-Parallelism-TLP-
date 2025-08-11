@@ -1,0 +1,10 @@
+Configuration: Slow_Execute_Fast_Issue
+Threads: 1
+Stats file: results_20250811_011601/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+=
+sim_seconds                                  .005920
+system.cpu.numCycles                         5980000
+system.cpu.ipc                               .4159
+system.cpu.numInsts                          2500000
+system.cpu.fuPool.FloatSimdFU.count         875000.00
+

@@ -1,0 +1,9 @@
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.1
+gem5 compiled Aug 10 2025 20:19:18
+gem5 started Aug 11 2025 00:41:08
+gem5 executing on ubuntu, pid 517542
+command line: ../gem5/build/X86/gem5.opt --outdir=results_20250811_004106/Fast_Execute_Slow_Issue_4threads/gem5_output configs/minor_cpu_floatsimd_config.py --num-cpus=4 --float-simd-op-lat=1 --float-simd-issue-lat=6 --caches --l2cache --cmd=src/multi_threaded_daxpy '--options=10000 4 2.5'
+

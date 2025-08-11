@@ -1,0 +1,11 @@
+Configuration: Balanced_Fast_Issue
+Threads: 8
+Stats file: results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+=
+sim_seconds: NOT_FOUND
+numCycles: NOT_FOUND
+cpi: NOT_FOUND
+ipc: NOT_FOUND
+numInsts: NOT_FOUND
+FloatSIMD: NOT_FOUND
+

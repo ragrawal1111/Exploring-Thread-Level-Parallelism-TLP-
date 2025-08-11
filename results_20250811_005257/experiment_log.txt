@@ -1,0 +1,613 @@
+2025-08-11 00:52:57: Starting FloatSimdFU analysis experiments
+2025-08-11 00:52:57: Results directory: results_20250811_005257
+2025-08-11 00:52:58: Testing FloatSimdFU configuration: Fast_Execute_Slow_Issue (opLat=1, issueLat=6)
+2025-08-11 00:52:58:   Running with 1 thread(s)
+2025-08-11 00:52:58:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:52:59:     Simulation command completed with exit code: 0
+2025-08-11 00:53:00:     Stats file found: results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:02:     Stats extracted: sim_seconds=2025-08-11 00:53:01: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:01: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:01: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:01: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:01: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:01: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:01: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:01: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:01: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:02: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:02: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:02: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:02: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:02: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:02:     Results saved to: results_20250811_005257/Fast_Execute_Slow_Issue_1threads
+2025-08-11 00:53:02:   Running with 2 thread(s)
+2025-08-11 00:53:02:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:53:03:     Simulation command completed with exit code: 0
+2025-08-11 00:53:04:     Stats file found: results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:05:     Stats extracted: sim_seconds=2025-08-11 00:53:04: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:04: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:04: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:05: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:05: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:05: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:05: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:05: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:05: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:05: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:05: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:05: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:05: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:05:     Results saved to: results_20250811_005257/Fast_Execute_Slow_Issue_2threads
+2025-08-11 00:53:06:   Running with 4 thread(s)
+2025-08-11 00:53:06:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:53:06:     Simulation command completed with exit code: 0
+2025-08-11 00:53:07:     Stats file found: results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:09:     Stats extracted: sim_seconds=2025-08-11 00:53:08: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:08: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:08: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:08: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:08: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:08: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:08: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:09: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:09: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:09: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:09: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:09: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:09: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:09: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:09: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:09: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:09:     Results saved to: results_20250811_005257/Fast_Execute_Slow_Issue_4threads
+2025-08-11 00:53:09:   Running with 8 thread(s)
+2025-08-11 00:53:10:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=1             --float-simd-issue-lat=6             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:53:10:     Simulation command completed with exit code: 0
+2025-08-11 00:53:11:     Stats file found: results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:13:     Stats extracted: sim_seconds=2025-08-11 00:53:12: DEBUG: Looking for sim_seconds in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:12: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:12: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:12: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:12: DEBUG: Looking for total_cycles in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:12: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:12: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:12: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:12: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:12: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:13: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:13: DEBUG: Looking for avg_ipc in results_20250811_005257/Fast_Execute_Slow_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:13: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:13: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:13: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:13: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:13: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:13: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:13:     Results saved to: results_20250811_005257/Fast_Execute_Slow_Issue_8threads
+2025-08-11 00:53:13: Testing FloatSimdFU configuration: Balanced_Fast_Execute (opLat=2, issueLat=5)
+2025-08-11 00:53:14:   Running with 1 thread(s)
+2025-08-11 00:53:14:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:53:14:     Simulation command completed with exit code: 0
+2025-08-11 00:53:15:     Stats file found: results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:17:     Stats extracted: sim_seconds=2025-08-11 00:53:16: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:16: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:16: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:16: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:16: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:16: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:16: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:16: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:16: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:17: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:17: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:17: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_1threads/gem5_output/stats.txt
+2025-08-11 00:53:17: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:17: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:17: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:17: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:17: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:17: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:17:     Results saved to: results_20250811_005257/Balanced_Fast_Execute_1threads
+2025-08-11 00:53:17:   Running with 2 thread(s)
+2025-08-11 00:53:17:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:53:18:     Simulation command completed with exit code: 0
+2025-08-11 00:53:19:     Stats file found: results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:21:     Stats extracted: sim_seconds=2025-08-11 00:53:20: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:20: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:20: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:20: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:20: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:20: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:20: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:20: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_2threads/gem5_output/stats.txt
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:20: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:20: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:21: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:21: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:21: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:21:     Results saved to: results_20250811_005257/Balanced_Fast_Execute_2threads
+2025-08-11 00:53:21:   Running with 4 thread(s)
+2025-08-11 00:53:21:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:53:21:     Simulation command completed with exit code: 0
+2025-08-11 00:53:23:     Stats file found: results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:25:     Stats extracted: sim_seconds=2025-08-11 00:53:23: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:23: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:24: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:24: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:24: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:24: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:24: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:24: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:24: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:24: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:25: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_4threads/gem5_output/stats.txt
+2025-08-11 00:53:25: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:25: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:25: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:25: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:25: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:25: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:25:     Results saved to: results_20250811_005257/Balanced_Fast_Execute_4threads
+2025-08-11 00:53:25:   Running with 8 thread(s)
+2025-08-11 00:53:25:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=2             --float-simd-issue-lat=5             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:53:26:     Simulation command completed with exit code: 0
+2025-08-11 00:53:27:     Stats file found: results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:29:     Stats extracted: sim_seconds=2025-08-11 00:53:28: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:28: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:28: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:28: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:28: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:28: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:28: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:28: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Execute_8threads/gem5_output/stats.txt
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:28: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:28: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:28: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:28: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:29:     Results saved to: results_20250811_005257/Balanced_Fast_Execute_8threads
+2025-08-11 00:53:29: Testing FloatSimdFU configuration: Balanced_Center (opLat=3, issueLat=4)
+2025-08-11 00:53:29:   Running with 1 thread(s)
+2025-08-11 00:53:29:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Center_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:53:30:     Simulation command completed with exit code: 0
+2025-08-11 00:53:31:     Stats file found: results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:33:     Stats extracted: sim_seconds=2025-08-11 00:53:32: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:32: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:32: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:32: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:32: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:32: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:32: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:32: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_1threads/gem5_output/stats.txt
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:32: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:32: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:32: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:32: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:33: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:33:     Results saved to: results_20250811_005257/Balanced_Center_1threads
+2025-08-11 00:53:33:   Running with 2 thread(s)
+2025-08-11 00:53:33:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Center_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:53:33:     Simulation command completed with exit code: 0
+2025-08-11 00:53:34:     Stats file found: results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:36:     Stats extracted: sim_seconds=2025-08-11 00:53:35: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:35: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:35: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:35: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:36: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:36: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:36: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:36: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:36: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_2threads/gem5_output/stats.txt
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:36: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:36: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:36: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:36: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:36: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:36:     Results saved to: results_20250811_005257/Balanced_Center_2threads
+2025-08-11 00:53:37:   Running with 4 thread(s)
+2025-08-11 00:53:37:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Center_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:53:37:     Simulation command completed with exit code: 0
+2025-08-11 00:53:38:     Stats file found: results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:41:     Stats extracted: sim_seconds=2025-08-11 00:53:39: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:39: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:40: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:40: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:40: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:40: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:40: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:40: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:40: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:40: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:40: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_4threads/gem5_output/stats.txt
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:40: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:40: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:40: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:41: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:41: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:41:     Results saved to: results_20250811_005257/Balanced_Center_4threads
+2025-08-11 00:53:41:   Running with 8 thread(s)
+2025-08-11 00:53:41:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Center_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=3             --float-simd-issue-lat=4             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:53:42:     Simulation command completed with exit code: 0
+2025-08-11 00:53:43:     Stats file found: results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:45:     Stats extracted: sim_seconds=2025-08-11 00:53:43: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:43: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:44: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:44: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:44: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:44: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:44: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:44: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:44: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:44: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:44: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Center_8threads/gem5_output/stats.txt
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:44: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:44: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:45: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:45: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:45: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:45:     Results saved to: results_20250811_005257/Balanced_Center_8threads
+2025-08-11 00:53:45: Testing FloatSimdFU configuration: Balanced_Fast_Issue (opLat=4, issueLat=3)
+2025-08-11 00:53:45:   Running with 1 thread(s)
+2025-08-11 00:53:45:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:53:46:     Simulation command completed with exit code: 0
+2025-08-11 00:53:47:     Stats file found: results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:49:     Stats extracted: sim_seconds=2025-08-11 00:53:48: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:48: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:48: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:48: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:48: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:48: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:48: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:48: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:48: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:48: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:53:48: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:49: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:49: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:49: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:49: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:49: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:49:     Results saved to: results_20250811_005257/Balanced_Fast_Issue_1threads
+2025-08-11 00:53:49:   Running with 2 thread(s)
+2025-08-11 00:53:49:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:53:50:     Simulation command completed with exit code: 0
+2025-08-11 00:53:51:     Stats file found: results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:53:     Stats extracted: sim_seconds=2025-08-11 00:53:52: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:52: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:52: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:52: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:52: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:52: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:52: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:52: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:52: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:52: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:52: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:52: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:53: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:53:53: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:53: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:53: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:53: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:53: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:53: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:53:     Results saved to: results_20250811_005257/Balanced_Fast_Issue_2threads
+2025-08-11 00:53:53:   Running with 4 thread(s)
+2025-08-11 00:53:53:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:53:54:     Simulation command completed with exit code: 0
+2025-08-11 00:53:55:     Stats file found: results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:57:     Stats extracted: sim_seconds=2025-08-11 00:53:56: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:53:56: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:53:56: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:53:56: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:53:56: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:53:56: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:53:56: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:53:56: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:53:56: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:53:56: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:53:56: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:53:56: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:53:57: DEBUG:   Trying pattern: ipc
+2025-08-11 00:53:57: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:53:57: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:53:57:     Results saved to: results_20250811_005257/Balanced_Fast_Issue_4threads
+2025-08-11 00:53:57:   Running with 8 thread(s)
+2025-08-11 00:53:57:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=4             --float-simd-issue-lat=3             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:53:57:     Simulation command completed with exit code: 0
+2025-08-11 00:53:58:     Stats file found: results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:01:     Stats extracted: sim_seconds=2025-08-11 00:53:59: DEBUG: Looking for sim_seconds in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:53:59: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:00: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:00: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:00: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:00: DEBUG: Looking for total_cycles in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:00: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:00: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:00: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:00: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:00: DEBUG: Looking for avg_ipc in results_20250811_005257/Balanced_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:00: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:01: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:01: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:01: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:01: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:01:     Results saved to: results_20250811_005257/Balanced_Fast_Issue_8threads
+2025-08-11 00:54:01: Testing FloatSimdFU configuration: Slow_Execute_Fast_Issue (opLat=5, issueLat=2)
+2025-08-11 00:54:01:   Running with 1 thread(s)
+2025-08-11 00:54:01:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:54:02:     Simulation command completed with exit code: 0
+2025-08-11 00:54:03:     Stats file found: results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:05:     Stats extracted: sim_seconds=2025-08-11 00:54:04: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:04: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:04: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:04: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:04: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:04: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:04: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:04: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:04: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:04: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:04: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:04: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:05: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:05: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:05: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:05:     Results saved to: results_20250811_005257/Slow_Execute_Fast_Issue_1threads
+2025-08-11 00:54:05:   Running with 2 thread(s)
+2025-08-11 00:54:05:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:54:06:     Simulation command completed with exit code: 0
+2025-08-11 00:54:07:     Stats file found: results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:09:     Stats extracted: sim_seconds=2025-08-11 00:54:08: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:08: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:08: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:08: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:08: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:08: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:08: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:08: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:08: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:08: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:08: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:09: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:09: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:09: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:09:     Results saved to: results_20250811_005257/Slow_Execute_Fast_Issue_2threads
+2025-08-11 00:54:09:   Running with 4 thread(s)
+2025-08-11 00:54:09:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:54:09:     Simulation command completed with exit code: 0
+2025-08-11 00:54:11:     Stats file found: results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12:     Stats extracted: sim_seconds=2025-08-11 00:54:12: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:12: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:12: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:12: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:12: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:12: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:12: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:12: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:12: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:12: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:12: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:12: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:12: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:12:     Results saved to: results_20250811_005257/Slow_Execute_Fast_Issue_4threads
+2025-08-11 00:54:13:   Running with 8 thread(s)
+2025-08-11 00:54:13:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=5             --float-simd-issue-lat=2             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:54:13:     Simulation command completed with exit code: 0
+2025-08-11 00:54:14:     Stats file found: results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:16:     Stats extracted: sim_seconds=2025-08-11 00:54:15: DEBUG: Looking for sim_seconds in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:15: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:15: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:15: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:15: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:15: DEBUG: Looking for total_cycles in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:15: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:15: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:16: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:16: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:16: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:16: DEBUG: Looking for avg_ipc in results_20250811_005257/Slow_Execute_Fast_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:16: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:16: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:16: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:16: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:16: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:16: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:16:     Results saved to: results_20250811_005257/Slow_Execute_Fast_Issue_8threads
+2025-08-11 00:54:16: Testing FloatSimdFU configuration: Slowest_Execute_Fastest_Issue (opLat=6, issueLat=1)
+2025-08-11 00:54:16:   Running with 1 thread(s)
+2025-08-11 00:54:16:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=1             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 1 2.5"
+2025-08-11 00:54:17:     Simulation command completed with exit code: 0
+2025-08-11 00:54:18:     Stats file found: results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:20:     Stats extracted: sim_seconds=2025-08-11 00:54:19: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:19: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:19: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:19: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:19: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:19: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:19: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:19: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:19: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:19: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:20: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:20: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads/gem5_output/stats.txt
+2025-08-11 00:54:20: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:20: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:20: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:20: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:20: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:20: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:20:     Results saved to: results_20250811_005257/Slowest_Execute_Fastest_Issue_1threads
+2025-08-11 00:54:20:   Running with 2 thread(s)
+2025-08-11 00:54:20:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=2             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 2 2.5"
+2025-08-11 00:54:21:     Simulation command completed with exit code: 0
+2025-08-11 00:54:22:     Stats file found: results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:24:     Stats extracted: sim_seconds=2025-08-11 00:54:23: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:23: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:23: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:23: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:23: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:23: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:23: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:23: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:23: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:23: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:23: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:23: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:24: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads/gem5_output/stats.txt
+2025-08-11 00:54:24: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:24: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:24: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:24: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:24: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:24: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:24:     Results saved to: results_20250811_005257/Slowest_Execute_Fastest_Issue_2threads
+2025-08-11 00:54:24:   Running with 4 thread(s)
+2025-08-11 00:54:24:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=4             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 4 2.5"
+2025-08-11 00:54:25:     Simulation command completed with exit code: 0
+2025-08-11 00:54:26:     Stats file found: results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:28:     Stats extracted: sim_seconds=2025-08-11 00:54:27: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:27: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:27: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:27: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:27: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:27: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:27: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:27: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:27: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:27: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:27: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:27: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:28: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads/gem5_output/stats.txt
+2025-08-11 00:54:28: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:28: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:28: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:28: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:28: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:28: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:28:     Results saved to: results_20250811_005257/Slowest_Execute_Fastest_Issue_4threads
+2025-08-11 00:54:28:   Running with 8 thread(s)
+2025-08-11 00:54:28:     Command: ../gem5/build/X86/gem5.opt             --outdir=results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output             configs/minor_cpu_floatsimd_config.py             --num-cpus=8             --float-simd-op-lat=6             --float-simd-issue-lat=1             --caches             --l2cache             --cmd=src/multi_threaded_daxpy             --options="10000 8 2.5"
+2025-08-11 00:54:29:     Simulation command completed with exit code: 0
+2025-08-11 00:54:30:     Stats file found: results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:32:     Stats extracted: sim_seconds=2025-08-11 00:54:31: DEBUG: Looking for sim_seconds in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:31: DEBUG:   Trying pattern: sim_seconds
+2025-08-11 00:54:31: DEBUG:   Trying pattern: simSeconds
+2025-08-11 00:54:31: DEBUG:   sim_seconds not found with any pattern
+2025-08-11 00:54:31: DEBUG:   Available statistics in file (first 20 lines):
+N/A, cycles=2025-08-11 00:54:31: DEBUG: Looking for total_cycles in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:31: DEBUG:   Trying pattern: system.cpu0.numCycles
+2025-08-11 00:54:31: DEBUG:   Trying pattern: system.cpu.numCycles
+2025-08-11 00:54:31: DEBUG:   Trying pattern: cpu0.numCycles
+2025-08-11 00:54:31: DEBUG:   Trying pattern: numCycles
+2025-08-11 00:54:31: DEBUG:   total_cycles not found with any pattern
+2025-08-11 00:54:31: DEBUG:   Available statistics in file (first 20 lines):
+N/A, ipc=2025-08-11 00:54:32: DEBUG: Looking for avg_ipc in results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads/gem5_output/stats.txt
+2025-08-11 00:54:32: DEBUG:   Trying pattern: system.cpu0.ipc
+2025-08-11 00:54:32: DEBUG:   Trying pattern: system.cpu.ipc
+2025-08-11 00:54:32: DEBUG:   Trying pattern: cpu0.ipc
+2025-08-11 00:54:32: DEBUG:   Trying pattern: ipc
+2025-08-11 00:54:32: DEBUG:   avg_ipc not found with any pattern
+2025-08-11 00:54:32: DEBUG:   Available statistics in file (first 20 lines):
+N/A, status=SUCCESS
+2025-08-11 00:54:32:     Results saved to: results_20250811_005257/Slowest_Execute_Fastest_Issue_8threads
+2025-08-11 00:54:32: Experiment completed!
+2025-08-11 00:54:32: Results summary saved to: results_20250811_005257/performance_summary.csv
+2025-08-11 00:54:32: Debug information saved to: results_20250811_005257/debug_log.txt
+2025-08-11 00:54:32: Run 'results_20250811_005257/analyze_results.py' to generate analysis plots and detailed summary
+2025-08-11 00:54:32: Detailed summary of experiments:

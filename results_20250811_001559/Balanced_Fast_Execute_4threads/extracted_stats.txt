@@ -1,0 +1,4 @@
+Configuration: Balanced_Fast_Execute
+Threads: 4
+=
+
